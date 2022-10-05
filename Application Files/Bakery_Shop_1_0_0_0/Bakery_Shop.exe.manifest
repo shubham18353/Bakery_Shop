@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Bakery_Shop.exe" version="1.0.0.0" publicKeyToken="cc2f6cac7e9ef4cc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Bakery_Shop" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Bakery_Shop.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bakery_Shop.exe" size="158176">
+      <assemblyIdentity name="Bakery_Shop" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3Aqa6Zypv7gXjeRMHz1MAxW7QiAIzJCH77ToN7M9mMs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Bakery_Shop.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-VR0STQM\spgup" issuerKeyHash="c1453ab9ecaf49644365e2cf7b294c59a0d62659" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Z7hVYLpXO7csDoeDiGOio8/ApGPKAg5Bvy2Hu0si9JM=</DigestValue></Reference></SignedInfo><SignatureValue>jFee3OWAKWKvCZfpgxGwFmhClQ2giJi5MzTqc0SVouWfX7EBDJJFOyQ+X7GH3BySKS0TPNqbqlYVThJxnW19X4T+d3K/v8PpIOntdQ0jbwDC9BWtsiQI+XoepaHKuckyI6KJh1cMZ70JGhx+UQBFOwYy92yP9E+7cm47MYC0OFI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zzeGkOupp1bgNB9cyhnScvzIAkjz/TpKU9BKdoCqQxKLLGvc/Hp/931hMcnpJpdiexdomRXWLwV6EzlCPTm1lrAejk5JIi2W8iYe2HcaBl73zDaETx10PAgOjgvVsehczpeX0E33K45YLjW0DgInLErcUwRYNTNWJnoWh+pWQQU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="93f4224bbb872dbf410e02ca63a4c0cfa3a2638883870e2cb73b57ba6055b867" Description="" Url=""><as:assemblyIdentity name="Bakery_Shop.exe" version="1.0.0.0" publicKeyToken="cc2f6cac7e9ef4cc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-VR0STQM\spgup</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cozbTJVYZe44nUFfr2ibWBteZRgGenqkW4qQl8sURQg=</DigestValue></Reference></SignedInfo><SignatureValue>TNjCjCpdTS+aLPBzMrfKkEljUn6mossB6Hm3k8KvU0JAA7qHmkIp62sscIH2oS/VzXk09nbp976kZ+Yo5twvJmc5BE0i2zbhx+3ltSriBn6AR0/WjXAzgEqKlmpvoUlbsj85BiXFGAD4fpc9A1GcJM0dKtNB2A00OCBvSypG5yE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zzeGkOupp1bgNB9cyhnScvzIAkjz/TpKU9BKdoCqQxKLLGvc/Hp/931hMcnpJpdiexdomRXWLwV6EzlCPTm1lrAejk5JIi2W8iYe2HcaBl73zDaETx10PAgOjgvVsehczpeX0E33K45YLjW0DgInLErcUwRYNTNWJnoWh+pWQQU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQMYCrWGQFz4xImgaxcPTmNTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFYAUgAwAFMAVABRAE0AXABzAHAAZwB1AHAwHhcNMjIxMDA1MDczMDEwWhcNMjMxMDA1MTMzMDEwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFYAUgAwAFMAVABRAE0AXABzAHAAZwB1AHAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM83hpDrqadW4DQfXMoZ0nL8yAJI8/06SlPQSnaAqkMSiyxr3Px6f/d9YTHJ6SaXYnsXaJkV1i8FehM5Qj05tZawHo5OSSItlvImHth3GgZe98w2hE8ddDwIDo4L1bHoXM6Xl9BN9yuOWC41tA4CJyxK3FMEWDUzViZ6FofqVkEFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAkHAEwMlkOxWZszO+9NqNMREZnCn9E7s0ett55KGhbMDmg6V+Hd/JrEWGpjWS4QmgKmP+ao+oTkXO1Rta0rDANHj4Vd271J7jSoMzk6621AZGMPi8hK7w0UstX2DI59gyjs33FQZoU4nLr7PCyqcQ0LK4dpVWfrhs7tnhmVyKKFM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
